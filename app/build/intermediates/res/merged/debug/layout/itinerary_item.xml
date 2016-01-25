@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/itinerary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/itinerary_number"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/flight_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/itinerary"
+        android:paddingLeft="10dp"
+        android:text="@string/flight_number"
+        android:textSize="18dp" />
+    
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/flight_list"
+        android:paddingLeft="10dp"
+        android:text="@string/overall_cost"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cost"
+        android:paddingLeft="10dp"
+        android:text="@string/travel_time"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/itinerary_number_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/flight_list"
+        android:layout_toRightOf="@+id/itinerary"
+        android:paddingLeft="10dp"
+        android:text="@string/itinerary_number"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/cost_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cost"
+        android:layout_alignBottom="@+id/cost"
+        android:layout_toRightOf="@+id/cost"
+        android:paddingLeft="10dp"
+        android:text="@string/overall_cost"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/time_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cost"
+        android:layout_toRightOf="@+id/time"
+        android:paddingLeft="10dp"
+        android:text="@string/travel_time"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/booked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/time_field"
+        android:layout_alignBottom="@+id/time_field"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:paddingLeft="10dp"
+        android:text="@string/title_activity_booked_itineraries"
+        android:textColor="#33CC33"
+        android:textSize="18dp" />
+
+</RelativeLayout>

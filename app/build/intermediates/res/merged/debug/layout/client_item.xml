@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left" >
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/email_label"
+        android:textColor="#3399FF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/email"
+        android:paddingLeft="10dp"
+        android:text="@string/first_name_label"
+        android:textColor="#3399FF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/time"
+        android:paddingLeft="10dp"
+        android:text="@string/last_name_label"
+        android:textColor="#3399FF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/email_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/time"
+        android:layout_toRightOf="@+id/email"
+        android:paddingLeft="10dp"
+        android:text="@string/email_label"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/firstName_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/firstName"
+        android:layout_toRightOf="@+id/firstName"
+        android:paddingLeft="10dp"
+        android:text="@string/first_name_label"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/lastName_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstName"
+        android:layout_alignBottom="@+id/firstName"
+        android:layout_toRightOf="@+id/firstName"
+        android:paddingLeft="10dp"
+        android:text="@string/last_name_label"
+        android:textSize="15dp" />
+
+</RelativeLayout>

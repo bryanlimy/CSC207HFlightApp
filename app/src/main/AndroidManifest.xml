@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs.g0365.csc207project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SearchFlightsActivity"
+            android:label="@string/title_activity_search_flights" >
+        </activity>
+        <activity
+            android:name=".FlightResultsActivity"
+            android:label="@string/title_activity_flight_results" >
+        </activity>
+        <activity
+            android:name=".UploadFlightInfoActivity"
+            android:label="@string/title_activity_upload_flight" >
+        </activity>
+        <activity
+            android:name=".SearchItinerariesActivity"
+            android:label="@string/title_activity_search_itineraries" >
+        </activity>
+        <activity
+            android:name=".ItineraryResultsActivity"
+            android:label="@string/title_activity_itinerary_results" >
+        </activity>
+        <activity
+            android:name=".UploadClientInfoActivity"
+            android:label="@string/title_activity_upload_client_info" >
+        </activity>
+        <activity
+            android:name=".ClientActivity"
+            android:label="@string/title_activity_client" >
+        </activity>
+        <activity
+            android:name=".AdministratorActivity"
+            android:label="@string/title_activity_administrator" >
+        </activity>
+        <activity
+            android:name=".SearchClientActivity"
+            android:label="@string/title_activity_search_client" >
+        </activity>
+        <activity
+            android:name=".BookedItinerariesActivity"
+            android:label="@string/title_activity_booked_itineraries" >
+        </activity>
+        <activity
+            android:name=".DebugActivity"
+            android:label="@string/title_activity_debug" >
+        </activity>
+        <activity
+            android:name=".UserClientInfoActivity"
+            android:label="@string/title_activity_client_user_info" >
+        </activity>
+        <activity
+            android:name=".EditFlightInfoActivity"
+            android:label="@string/title_activity_edit_flight_info" >
+        </activity>
+        <activity
+            android:name=".ViewClientInfoActivity"
+            android:label="@string/title_activity_view_client_info" >
+        </activity>
+        <activity
+            android:name=".ViewAdminInfoActivity"
+            android:label="@string/title_activity_view_admin_info" >
+        </activity>
+        <activity
+            android:name=".EditClientInfoActivity"
+            android:label="@string/title_activity_edit_client_info" >
+        </activity>
+        <activity
+            android:name=".ListClientsResultActivity"
+            android:label="@string/title_activity_list_clients_result" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#E9E9E9" >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/search_itineraries_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/search_client_by_email"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:textColor="@drawable/menu_button_text_color"
+        android:onClick="searchItineraries"
+        android:text="@string/search_itineraries_btn" />
+
+    <Button
+        android:id="@+id/search_flights_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/menu_button"
+        android:layout_below="@+id/search_itineraries_btn"
+        android:onClick="searchFlights"
+        android:textColor="@drawable/menu_button_text_color"
+        android:text="@string/search_edit_flights_btn" />
+    
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_alignStart="@+id/TextView01"
+        android:layout_below="@+id/search_flights_btn"
+        android:layout_marginTop="8dp"
+        android:text="@string/view_info"
+        android:textColor="#359294"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/upload_flights_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/upload_clients_btn"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="uploadFlightInfo"
+        android:textColor="@drawable/menu_button_text_color"
+        android:text="@string/upload_flights_btn" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/upload_client"
+        android:textColor="#359294"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/search_client_by_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/upload_flights_btn"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="searchClients"
+        android:textColor="@drawable/menu_button_text_color"
+        android:text="@string/search_client_btn" />
+
+    <Button
+        android:id="@+id/upload_clients_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="uploadClientInfo"
+        android:text="@string/upload_clients"
+        android:textColor="@drawable/menu_button_text_color" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/upload_flights_btn"
+        android:layout_marginTop="8dp"
+        android:text="@string/search_label"
+        android:textColor="#359294"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/view_personal_info_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/menu_button"
+        android:onClick="viewPersonalInformation"
+        android:text="@string/view_personal_info_label"
+        android:textColor="@drawable/menu_button_text_color" />
+    
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view_personal_info_btn"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="logout"
+        android:text="@string/logout_btn"
+        android:textColor="@drawable/menu_button_text_color" />
+    
+</RelativeLayout>
+
+</ScrollView>

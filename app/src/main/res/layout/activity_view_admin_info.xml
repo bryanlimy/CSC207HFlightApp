@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/first_name_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameTextView_userInfo"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" 
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/last_name_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastNameTextView"
+                android:ems="10"
+                android:inputType="textPersonName" 
+                android:layout_centerHorizontal="true"
+                android:gravity="center" 
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/email_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewEmailLabel"
+                android:ems="10"
+                android:inputType="textEmailAddress" 
+                android:layout_centerHorizontal="true"
+                android:gravity="center" 
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/credit_card_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewCreditCardLabel"
+                android:ems="10"
+                android:inputType="number"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" 
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/textViewEmailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/last_name_label"
+                android:layout_centerHorizontal="true"
+        		android:text="@string/email_address"
+                android:textColor="#8C8C8C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lastNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/nameTextView_userInfo"
+                android:layout_below="@+id/first_name_label"
+        		android:text="@string/last_name_label"
+                android:textColor="#8C8C8C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/nameTextView_userInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/credit_card_number"
+                android:layout_centerHorizontal="true"
+        		android:text="@string/first_name_label"
+                android:textColor="#8C8C8C"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

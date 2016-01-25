@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#F8F8F8" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/origin_field"
+        android:layout_below="@+id/origin_field"
+        android:layout_marginTop="15dp"
+        android:text="@string/destination"
+        android:textColor="#359294"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/destination_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_alignRight="@+id/flight_date"
+        android:layout_below="@+id/TextView01"
+        android:background="#fff"
+        android:ems="10"
+        android:minHeight="30dp" />
+
+    <Button
+        android:id="@+id/search_flights_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_alignRight="@+id/destination_field"
+        android:layout_below="@+id/destination_field"
+        android:layout_marginTop="240dp"
+        android:background="#2BBABD"
+        android:onClick="searchFlights"
+        android:text="@string/search"
+        android:textColor="@drawable/button_text_color" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/destination_field"
+        android:layout_below="@+id/destination_field"
+        android:layout_marginTop="14dp"
+        android:text="@string/date"
+        android:textColor="#359294"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/last_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/origin_field"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/origin"
+        android:textColor="#359294"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/origin_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flight_date"
+        android:layout_alignRight="@+id/flight_date"
+        android:layout_below="@+id/last_name_label"
+        android:background="#fff"
+        android:ems="10"
+        android:minHeight="30dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <DatePicker
+        android:id="@+id/flight_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/TextView02"
+        android:layout_centerHorizontal="true"
+        android:calendarViewShown="false" />
+
+</RelativeLayout>
+
+</ScrollView>

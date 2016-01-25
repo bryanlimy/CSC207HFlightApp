@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   	<ListView
+   	    android:id="@+id/itinerary_results_list"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="match_parent"
+   	    android:layout_above="@+id/hidden_button"
+   	    android:layout_alignParentLeft="true" >
+
+   	</ListView>
+
+   <View 
+       android:id="@+id/fakeView"
+       android:layout_width="0dp"
+       android:layout_height="0dp" 
+       android:layout_centerInParent="true"
+   	   android:layout_alignParentBottom="true" />
+   
+   <Button
+       android:id="@+id/sort_time"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignRight="@id/fakeView"
+       android:text="@string/sort_time"
+       android:textSize="15sp"
+       android:onClick="sortByTime"
+       android:background="#2BBABD"
+       android:textColor="@drawable/button_text_color" />
+
+   <Button
+       android:id="@+id/sort_cost"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@id/fakeView"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:text="@string/sort_cost"
+       android:textSize="15sp"
+       android:onClick="sortByCost"
+       android:background="#2BBABD"
+       android:textColor="@drawable/button_text_color" />
+   	
+   	<Button
+   	    android:id="@+id/hidden_button"
+   	    android:layout_width="0dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignParentBottom="true"
+   	    android:text="" />
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/flight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/flight_number"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/flight"
+        android:paddingLeft="10dp"
+        android:text="@string/origin"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/origin"
+        android:paddingLeft="10dp"
+        android:text="@string/destination"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/destination_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/origin"
+        android:layout_toRightOf="@+id/destination"
+        android:paddingLeft="10dp"
+        android:text="@string/destination"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/origin_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/origin"
+        android:layout_alignBottom="@+id/origin"
+        android:layout_toRightOf="@+id/origin"
+        android:paddingLeft="10dp"
+        android:text="@string/origin"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/flight_number_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/origin_field"
+        android:layout_toRightOf="@+id/flight"
+        android:paddingLeft="10dp"
+        android:text="@string/flight_number"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/departure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/destination"
+        android:paddingLeft="10dp"
+        android:text="@string/departure"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/departure_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/departure"
+        android:layout_alignBottom="@+id/departure"
+        android:layout_toRightOf="@+id/departure"
+        android:paddingLeft="10dp"
+        android:text="@string/departure"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/arrival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/departure"
+        android:paddingLeft="10dp"
+        android:text="@string/arrival"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/arrival_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/arrival"
+        android:layout_alignBottom="@+id/arrival"
+        android:layout_toRightOf="@+id/arrival"
+        android:paddingLeft="10dp"
+        android:text="@string/arrival"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/airline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arrival"
+        android:layout_toLeftOf="@+id/arrival_field"
+        android:paddingLeft="10dp"
+        android:text="@string/airline"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/airline_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/airline"
+        android:layout_alignBottom="@+id/airline"
+        android:layout_alignLeft="@+id/arrival_field"
+        android:paddingLeft="10dp"
+        android:text="@string/airline"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/airline"
+        android:paddingLeft="10dp"
+        android:text="@string/cost"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/travel_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cost"
+        android:paddingLeft="10dp"
+        android:text="@string/travel_time"
+        android:textColor="#3399FF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/time_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/travel_time"
+        android:layout_alignBottom="@+id/travel_time"
+        android:layout_toRightOf="@+id/travel_time"
+        android:paddingLeft="10dp"
+        android:text="@string/travel_time"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/cost_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cost"
+        android:layout_alignBottom="@+id/cost"
+        android:layout_toRightOf="@+id/cost"
+        android:paddingLeft="10dp"
+        android:text="@string/cost"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/num_seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/time_field"
+        android:layout_alignBottom="@+id/time_field"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:paddingLeft="10dp"
+        android:text="@string/numSeats"
+        android:textSize="18dp" />
+
+</RelativeLayout>

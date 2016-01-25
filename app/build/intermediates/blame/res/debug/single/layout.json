@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/client_item.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/client_item.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/itinerary_item.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/itinerary_item.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_view_admin_info.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_view_admin_info.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_upload_flight_info.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_upload_flight_info.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_view_client_info.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_view_client_info.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_client.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_client.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_booked_itineraries.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_booked_itineraries.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_search_flights.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_search_flights.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_search_client.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_search_client.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_edit_client_info.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_edit_client_info.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_list_clients_result.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_list_clients_result.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_flight_results.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_flight_results.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_upload_client_info.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_upload_client_info.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_itinerary_results.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_itinerary_results.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_edit_flight_info.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_edit_flight_info.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_administrator.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_administrator.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/flight_item.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/flight_item.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/layout/activity_search_itineraries.xml",
+        "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/layout/activity_search_itineraries.xml"
+    }
+]

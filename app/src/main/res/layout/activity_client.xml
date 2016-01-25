@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#E9E9E9" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/view_client_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="viewClientInfo"
+        android:text="@string/view_client_info"
+        android:textColor="@drawable/menu_button_text_color" />
+
+    <Button
+        android:id="@+id/search_flights_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/search_itineraries_btn"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="searchFlights"
+        android:text="@string/search_flights_btn"
+        android:textColor="@drawable/menu_button_text_color" />
+
+    <Button
+        android:id="@+id/view_booked_itineraries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view_client_info"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="viewBookedItineraries"
+        android:text="@string/view_booked_itineraries"
+        android:textColor="@drawable/menu_button_text_color" />
+
+    <Button
+        android:id="@+id/search_itineraries_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextViewSearch"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="searchItineraries"
+        android:text="@string/search_itineraries_btn"
+        android:textColor="@drawable/menu_button_text_color" />
+
+    <TextView
+        android:id="@+id/TextViewSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edit_inforamtion"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/search"
+        android:textColor="#359294"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextViewSearch"
+        android:layout_below="@+id/view_booked_itineraries"
+        android:layout_marginTop="8dp"
+        android:text="@string/edit_info"
+        android:textColor="#359294"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/TextViewSearch"
+        android:layout_marginTop="8dp"
+        android:text="@string/view_info"
+        android:textColor="#359294"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/edit_inforamtion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edit"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="editClientInfo"
+        android:text="@string/edit_personal_billig_information"
+        android:textColor="@drawable/menu_button_text_color" />
+
+    <Button
+        android:id="@+id/client_logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/search_flights_btn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menu_button"
+        android:minHeight="45dp"
+        android:onClick="logout"
+        android:text="@string/logout_btn"
+        android:textColor="@drawable/menu_button_text_color" />
+
+</RelativeLayout>
+
+</ScrollView>

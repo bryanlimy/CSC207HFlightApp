@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="#F8F8F8" >
+
+    <EditText
+        android:id="@+id/upload_client_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="@string/client_file_path"
+        android:minHeight="40dp"
+        android:textSize="18sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/uploadClientSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/upload_client_field"
+        android:layout_alignLeft="@+id/upload_client_field"
+        android:layout_alignRight="@+id/upload_client_field"
+        android:layout_marginBottom="52dp"
+        android:minHeight="40dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/upload_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/upload_client_field"
+        android:layout_alignRight="@+id/upload_client_field"
+        android:layout_below="@+id/upload_client_field"
+        android:layout_marginTop="25dp"
+        android:background="#2BBABD"
+        android:onClick="uploadClientText"
+        android:text="@string/upload_client"
+        android:textColor="@drawable/button_text_color"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/upload_client"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs.g0365.csc207project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cs.g0365.csc207project.LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter android:label="@string/app_name" >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.SearchFlightsActivity"
+            android:label="@string/title_activity_search_flights" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.FlightResultsActivity"
+            android:label="@string/title_activity_flight_results" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.UploadFlightInfoActivity"
+            android:label="@string/title_activity_upload_flight" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.SearchItinerariesActivity"
+            android:label="@string/title_activity_search_itineraries" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.ItineraryResultsActivity"
+            android:label="@string/title_activity_itinerary_results" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.UploadClientInfoActivity"
+            android:label="@string/title_activity_upload_client_info" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.ClientActivity"
+            android:label="@string/title_activity_client" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.AdministratorActivity"
+            android:label="@string/title_activity_administrator" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.SearchClientActivity"
+            android:label="@string/title_activity_search_client" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.BookedItinerariesActivity"
+            android:label="@string/title_activity_booked_itineraries" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.DebugActivity"
+            android:label="@string/title_activity_debug" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.UserClientInfoActivity"
+            android:label="@string/title_activity_client_user_info" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.EditFlightInfoActivity"
+            android:label="@string/title_activity_edit_flight_info" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.ViewClientInfoActivity"
+            android:label="@string/title_activity_view_client_info" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.ViewAdminInfoActivity"
+            android:label="@string/title_activity_view_admin_info" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.EditClientInfoActivity"
+            android:label="@string/title_activity_edit_client_info" >
+        </activity>
+        <activity
+            android:name="cs.g0365.csc207project.ListClientsResultActivity"
+            android:label="@string/title_activity_list_clients_result" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="${relativePackage}.${activityClass}" >
+
+   	<ListView
+   	    android:id="@+id/client_results_list"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="match_parent"
+   	    android:layout_above="@+id/hidden_button"
+   	    android:layout_alignParentLeft="true" >
+
+   	</ListView>
+
+   <View 
+       android:id="@+id/fakeClientView"
+       android:layout_width="0dp"
+       android:layout_height="0dp" 
+       android:layout_centerInParent="true"
+   	   android:layout_alignParentBottom="true" />
+  
+   	
+   	<Button
+   	    android:id="@+id/hidden_button"
+   	    android:layout_width="0dp"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignParentBottom="true"
+   	    android:text="" />
+
+   	<Button
+   	    android:id="@+id/back_to_main"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignParentBottom="true"
+   	    android:layout_alignParentLeft="true"
+   	    android:layout_alignParentRight="true"
+   	    android:background="#2BBABD"
+   	    android:onClick="backToSearch"
+        android:text="@string/back_search"
+   	    android:textColor="@drawable/button_text_color"
+   	    android:textSize="15sp" />
+
+</RelativeLayout>

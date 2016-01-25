@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="#F8F8F8" >
+
+    <EditText
+        android:id="@+id/editClientEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:minHeight="30dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/search_client_by_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editClientEmailText"
+        android:layout_alignRight="@+id/editClientEmailText"
+        android:layout_below="@+id/editClientEmailText"
+        android:layout_marginTop="14dp"
+        android:onClick="searchClient"
+        android:text="@string/search_label"
+        android:background="#2BBABD"
+        android:textColor="@drawable/button_text_color" />
+
+    <Spinner
+        android:id="@+id/client_email_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editClientEmailText"
+        android:layout_alignLeft="@+id/editClientEmailText"
+        android:layout_alignRight="@+id/editClientEmailText"
+        android:layout_marginBottom="67dp"
+        android:minHeight="40dp" />
+
+    <Button
+        android:id="@+id/buttonViewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/search_client_by_email"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/search_client_by_email"
+        android:layout_marginBottom="20dp"
+        android:background="#2BBABD"
+        android:onClick="viewAll"
+        android:text="@string/all_clients_btn"
+        android:textColor="@drawable/button_text_color" />
+
+</RelativeLayout>
