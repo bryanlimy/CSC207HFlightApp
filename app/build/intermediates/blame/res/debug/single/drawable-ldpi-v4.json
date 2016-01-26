@@ -4,6 +4,10 @@
         "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/drawable-ldpi/menu_button.xml"
     },
     {
+        "merged": "/Users/bryanlimy/GitHub/FlightApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/menu_button.xml",
+        "source": "/Users/bryanlimy/GitHub/FlightApp/app/src/main/res/drawable-ldpi/menu_button.xml"
+    },
+    {
         "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/button_text_color.xml",
         "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/drawable-ldpi/button_text_color.xml"
     },
@@ -12,7 +16,19 @@
         "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/drawable-ldpi/menu_button_text_color.xml"
     },
     {
+        "merged": "/Users/bryanlimy/GitHub/FlightApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/button_text_color.xml",
+        "source": "/Users/bryanlimy/GitHub/FlightApp/app/src/main/res/drawable-ldpi/button_text_color.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/FlightApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/menu_button_text_color.xml",
+        "source": "/Users/bryanlimy/GitHub/FlightApp/app/src/main/res/drawable-ldpi/menu_button_text_color.xml"
+    },
+    {
         "merged": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/itinerary_sort_button.xml",
         "source": "/Users/bryanlimy/GitHub/CSC207HFlightApp/app/src/main/res/drawable-ldpi/itinerary_sort_button.xml"
+    },
+    {
+        "merged": "/Users/bryanlimy/GitHub/FlightApp/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/itinerary_sort_button.xml",
+        "source": "/Users/bryanlimy/GitHub/FlightApp/app/src/main/res/drawable-ldpi/itinerary_sort_button.xml"
     }
 ]
