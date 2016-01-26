@@ -1,8 +1,8 @@
 # Flight App from Software Design Final Project
 
-Before the application is run, some files located in the PIII directory must be 
+Before the application is run, some files located in the Testing Files directory must be 
 pushed to the internal storage directory located at:
-/data/data/<app name>/files/
+/data/data/app_name/files/
 
 Files to push to device:
 - passwords.txt
@@ -12,7 +12,7 @@ Files to push to device:
 Location of csv files:
 Any csv files to be uploaded should be also be placed in the internal storage 
 directory located at:
-/data/data/<app name>/files/
+/data/data/app_name/files/
 
 Logging in:
 The format of the passwords.txt files is, on each line, the username followed by

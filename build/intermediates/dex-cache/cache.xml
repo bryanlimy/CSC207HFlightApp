@@ -6,7 +6,7 @@
         jumboMode="false"
         revision="23.0.2"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/bryanlimy/GitHub/CSC207HFlightApp/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_ea6b183a7bb7b5b250c87ac27f79dcb659c77d1a.jar" />
+        <dex dex="/Users/bryanlimy/GitHub/FlightApp/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_ea6b183a7bb7b5b250c87ac27f79dcb659c77d1a.jar" />
     </item>
 
 </items>
